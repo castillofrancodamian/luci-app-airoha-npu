@@ -1,0 +1,137 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:431
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:515
+msgid "Active"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:392
+msgid "Airoha SoC Status"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:325
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:334
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:338
+msgid "Apply"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:322
+msgid "Applying..."
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:418
+msgid "CPU Cores"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:396
+msgid "CPU Frequency"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:330
+msgid "CPU set to"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:399
+msgid "Current Frequency"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:345
+msgid ""
+"Direct PLL programming. Governor locked to performance. Stock max: 1200 MHz. "
+"Tested stable up to 1500 MHz."
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:476
+msgid "Ethernet"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:251
+msgid "Failed to set governor:"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:278
+msgid "Failed to set max frequency:"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:435
+msgid "Firmware / Clock / Cores"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:313
+msgid "Frequency must be 500-1600 MHz"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:404
+msgid "Governor"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/root/usr/share/rpcd/acl.d/luci-app-airoha-npu.json:3
+msgid "Grant access to Airoha SoC status (NPU + CPU + Overclock)"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:471
+msgid "Index"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:409
+msgid "Max Frequency"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:426
+msgid "NPU & Wireless Offload"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:429
+msgid "NPU Status"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:475
+msgid "New Flow"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:432
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:516
+msgid "Not Active"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:474
+msgid "Original Flow"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:414
+msgid "Overclock"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:327
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:335
+msgid "Overclock failed:"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:468
+msgid "PPE Flow Offload Entries"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:456
+msgid "PPE Flows"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:442
+msgid "Reserved Memory"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/root/usr/share/luci/menu.d/luci-app-airoha-npu.json:3
+msgid "SoC Status"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:472
+msgid "State"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:446
+msgid "Token Pool"
+msgstr ""
+
+#: ../../applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:473
+msgid "Type"
+msgstr ""
