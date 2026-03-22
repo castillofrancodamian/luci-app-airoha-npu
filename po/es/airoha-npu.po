@@ -89,7 +89,7 @@ msgstr "Frecuencia máxima"
 
 #: applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:376
 msgid "Must be 500-1600 MHz"
-msgstr "Debe ser de 500-1600 MHz."
+msgstr "Debe ser de 500-1600 MHz"
 
 #: applications/luci-app-airoha-npu/htdocs/luci-static/resources/view/airoha_npu/status.js:430
 msgid "NPU & Offload Engine"
