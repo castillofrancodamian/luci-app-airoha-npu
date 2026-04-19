@@ -6,10 +6,17 @@
 
 get_status() {
 	# === NPU Status ===
-	local npu_fw="/lib/firmware/airoha/en7581_npu_rv32.bin"
-	local npu_ver="Unknown"
+	# Read the actually-loaded NPU firmware path from DTS (firmware-name property).
+	local npu_fw=""
+	local npu_dt="/proc/device-tree/soc/npu@1e900000/firmware-name"
+	if [ -f "$npu_dt" ]; then
+		# firmware-name is a string list (null-separated). First entry is the rv32 code.
+		local fw_rel=$(tr '\0' '\n' < "$npu_dt" 2>/dev/null | grep -m1 "rv32")
+		[ -n "$fw_rel" ] && npu_fw="/lib/firmware/$fw_rel"
+	fi
 
-	if [ -f "$npu_fw" ]; then
+	local npu_ver="Unknown"
+	if [ -n "$npu_fw" ] && [ -f "$npu_fw" ]; then
 		npu_ver=$(strings "$npu_fw" 2>/dev/null | grep -oE '([0-9]+\.[0-9]+\.[0-9]+-)?TLB[0-9.]+[-_v0-9]*' | head -1)
 		[ -z "$npu_ver" ] && npu_ver="Unknown"
 	fi
